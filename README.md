@@ -1,0 +1,2 @@
+# RegistryForZarrCodecs
+Registry
