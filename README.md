@@ -1,4 +1,5 @@
-![Image](https://github.com/Alt-Shivam/Codecs-Registry/blob/gh-pages/With.png)
+![image](https://user-images.githubusercontent.com/81817735/177476995-580fb2ed-0b4e-4bde-bfba-1fc70b044916.png)
+
 # Registry (Zarr-Codecs)
 
 ## Download this Registry
