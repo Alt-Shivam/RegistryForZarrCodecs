@@ -6,7 +6,53 @@
 * CSV
 * xhtml
 
-## 
+## Registry
+
+| CodecID          | CodecName                    | SourceCode | Type        |
+|------------------|------------------------------|------------|-------------|
+|                  | Checksum 32                  |            | Numcodecs   |
+|                  | Compat                       |            | Numcodecs   |
+|                  | MsgPack                      |            | Numcodecs   |
+| base64           | Base64                       |            | Numcodecs   |
+| categorize       | Categorize                   |            | Numcodecs   |
+| delta            | Delta                        |            | Numcodecs   |
+| fixedscaleoffset | FixedScaleOffset             |            | Numcodecs   |
+|                  | Blosc                        |            | Numcodecs   |
+| gzip             | GZIP                         |            | Numcodecs   |
+|                  | BZ2                          |            | Numcodecs   |
+|                  | LZMA                         |            | Numcodecs   |
+|                  | LZ4                          |            | Numcodecs   |
+| zlib             | Zlib (DEFLATE)               |            | Numcodecs   |
+|                  | ZStandard (ZSTD)             |            | Numcodecs   |
+| packbits         | PackBits                     |            | Numcodecs   |
+| pickle           | Pickle                       |            | Numcodecs   |
+| quantize         | Quantize                     |            | Numcodecs   |
+| shuffle          | Shuffle                      |            | Numcodecs   |
+| zfpy             | ZFPY                         |            | Numcodecs   |
+| astype           | Astype                       |            | Numcodecs   |
+| bitround         | Bitround                     |            | Numcodecs   |
+| json2            | JSON                         |            | Numcodecs   |
+|                  | Deflate64 / Enhanced Deflate |            | Numcodecs   |
+|                  | Snappy                       |            | Numcodecs   |
+|                  | LZS                          |            | Numcodecs   |
+|                  | LZSS                         |            | Numcodecs   |
+|                  | LZO                          |            | Numcodecs   |
+|                  | LZFSE                        |            | Numcodecs   |
+|                  | ZFP                          |            | Numcodecs   |
+|                  | LZRW                         |            | Numcodecs   |
+|                  | LZX                          |            | Numcodecs   |
+|                  | LZWL                         |            | Numcodecs   |
+|                  | LZ4HC                        |            | Numcodecs   |
+|                  | LZW                          |            | Numcodecs   |
+|                  | LZF                          |            | Numcodecs   |
+|                  | GZIP                         |            | Numcodecs   |
+|                  | AEC                          |            | ImageCodecs |
+|                  | APNG                         |            | ImageCodecs |
+|                  | AVIF                         |            | ImageCodecs |
+|                  | Brotli                       |            | ImageCodecs |
+|                  | Brunsli                      |            | ImageCodecs |
+
+
 
 
 
