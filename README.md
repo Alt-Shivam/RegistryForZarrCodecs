@@ -1,9 +1,18 @@
 ![image](https://user-images.githubusercontent.com/81817735/177476995-580fb2ed-0b4e-4bde-bfba-1fc70b044916.png)
 
 # Registry (Zarr-Codecs)
+## Created
 
+2022-07-01
+## Maintained By [Zarr-Developers](https://github.com/zarr-developers)
+
+To know more about codecs, refer to this Research File
+
+![image](https://user-images.githubusercontent.com/81817735/177851654-2424863b-c1cf-4a02-8d85-32553b0c5901.png)
+
+[Link](https://hackmd.io/@uTe8Vo8gSYeCbwHsQI2Z2Q/SJycGaHtq)
 ## Download this Registry
-* CSV
+* [CSV](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
 * xhtml
 
 ## Registry
