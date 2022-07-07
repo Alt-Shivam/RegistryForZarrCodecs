@@ -8,9 +8,7 @@
 
 To know more about codecs, refer to this Research File
 
-![image](https://user-images.githubusercontent.com/81817735/177851654-2424863b-c1cf-4a02-8d85-32553b0c5901.png)
-
-[Link](https://hackmd.io/@uTe8Vo8gSYeCbwHsQI2Z2Q/SJycGaHtq)
+## [Link](https://hackmd.io/@uTe8Vo8gSYeCbwHsQI2Z2Q/SJycGaHtq)
 ## Download this Registry
 * [CSV](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
 * xhtml
