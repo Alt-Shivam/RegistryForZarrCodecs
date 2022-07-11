@@ -1,5 +1,5 @@
 CodecID,CodecName,SourceCode,Type,LastUpdate
-None,Checksum 32,www.google.com,Numcodecs,08/07/22
+None,Checksum 32,,Numcodecs,08/07/22
 None,Compat,,Numcodecs,08/07/22
 msgpack2,MsgPack,,Numcodecs,08/07/22
 base64,Base64,,Numcodecs,08/07/22
