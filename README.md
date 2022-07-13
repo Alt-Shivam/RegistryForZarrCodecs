@@ -4,14 +4,16 @@
 ## Created
 
 2022-07-01
+## Last Updated
+
+2022-07-13
 ## Maintained By [Zarr-Developers](https://github.com/zarr-developers)
 
 To know more about codecs, refer to this Research File
 
-## [Link](https://hackmd.io/@uTe8Vo8gSYeCbwHsQI2Z2Q/SJycGaHtq)
+### [Link](https://hackmd.io/@uTe8Vo8gSYeCbwHsQI2Z2Q/SJycGaHtq)
 ## Download this Registry
-* [CSV](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
-* xhtml
+* [CSV](https://downgit.github.io/#/home?url=https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
 
 ## Registry
 
@@ -59,24 +61,31 @@ To know more about codecs, refer to this Research File
 | None | LZF |  | Others |  | 08/07/22 |
 | None | GZIP |  | Others |  | 08/07/22 |
 
+## Haven't found your codec listed here?
+You can easily add your codec by following these simple steps. :tada:
+### Steps to follow.
+**Step.1**- Make sure you have the Codec related information in the following manner.
+```
+* Blosc
+- A brief about how the compression technique works(2-3 lines)
+- Where the codec is primarily used(webpages, PNGs, JPEGs, OS etc.)
+- Comparing compression and decompression benchmarks/speeds
+- Any other info you think is useful
+- Important links for the codec(GitHub, Blog post, Implementations etc.)
 
+```
 
+**Step.2**- Clone and make changes to these project files.
 
+* clone the repo.
+```bash
+git clone https://github.com/Alt-Shivam/Codecs-Registry.git
+```
 
+* Add your codec information in Registry.csv file.
 
+* Make changes to README.md file of branch gh-pages.
 
+**Step.3**- Push your changes to your forked repo and Generate a Pull Request.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Thanks for visiting us, This site will be fully operational soon with related information.
+### Thanks for Visiting!!!
