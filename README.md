@@ -1,6 +1,3 @@
-https://github.com/parsiad/mlinterp/archive/v0.1.zip
-https://github.com/parsiad/mlinterp/archive/v0.1.tar.gz
-
 ![image](https://user-images.githubusercontent.com/81817735/177476995-580fb2ed-0b4e-4bde-bfba-1fc70b044916.png)
 
 # Registry (Zarr-Codecs)
