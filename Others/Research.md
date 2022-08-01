@@ -46,22 +46,20 @@
 - [x] Brunsli
 
 ### Base64
-| CodecID - `base64` |
-|-------------------:|
-| Provides Base64 encoding and decoding functions as defined by RFC 2045 (section 6.8). and used for Encoding and Decoding an object into ASCII format. |
-| Can handle both encode and decode operations seemlessly because of fast speeds. |
-| This codec operates directly on byte streams, and not character streams, it is hard-coded to only encode/decode character encodings which are compatible with the lower 127 ASCII chart (ISO-8859-1, Windows-1252, UTF-8, etc). |
+* CodecID - `base64`
+* Provides Base64 encoding and decoding functions as defined by RFC 2045 (section 6.8). and used for Encoding and Decoding an object into ASCII format.
+* Can handle both encode and decode operations seemlessly because of fast speeds.
+* This codec operates directly on byte streams, and not character streams, it is hard-coded to only encode/decode character encodings which are compatible with the lower 127 ASCII chart (ISO-8859-1, Windows-1252, UTF-8, etc).
 
 Related Links:
 [Wikipedia](https://en.wikipedia.org/wiki/Base64)
 [Base64](https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/binary/Base64.html)
 
 ### Categorize
-| CodecID - `categorize`
-|-
-Filters encoding categorical string data as integers.
-When provided with a set of strings it converts and represents them as integers .i.e **categorize them**.
-**Example**: **converts**  (['male', 'female', 'female', 'male', 'unexpected'], dtype=object) **to** ([2, 1, 1, 2, 0], dtype=uint8) 
+* CodecID - `categorize`
+* Filters encoding categorical string data as integers.
+* When provided with a set of strings it converts and represents them as integers .i.e **categorize them**.
+* **Example**: **converts**  (['male', 'female', 'female', 'male', 'unexpected'], dtype=object) **to** ([2, 1, 1, 2, 0], dtype=uint8) 
 
 Related Links:
 [Source Code](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/categorize.py)
