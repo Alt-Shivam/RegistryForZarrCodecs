@@ -1,2 +1,2 @@
-remote_theme: poole/hyde
+remote_theme: daviddarnes/alembic@main
 show_downloads: true
