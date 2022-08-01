@@ -23,6 +23,7 @@
 - [x] Astype
 - [x] Bitround
 - [x] JSON
+
 ### Others
 - [x] Deflate64 / Enhanced Deflate
 - [x] Snappy
@@ -38,12 +39,14 @@
 - [x] LZW
 - [x] LZF
 - [x] GZIP
+
 ### ImageCodecs
 - [x] AEC
 - [x] APNG
 - [x] AVIF
 - [x] Brotli
 - [x] Brunsli
+
 
 ### Base64
 * CodecID - `base64`
