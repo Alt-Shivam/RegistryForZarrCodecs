@@ -11,7 +11,7 @@
 
 To know more about codecs, refer to this Research File
 
-### [Link](https://hackmd.io/@uTe8Vo8gSYeCbwHsQI2Z2Q/SJycGaHtq)
+### [Link](https://alt-shivam.github.io/Codecs-Registry/Others/Research)
 ## Download this Registry
 * [CSV](https://downgit.github.io/#/home?url=https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
 
