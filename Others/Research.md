@@ -46,11 +46,11 @@
 - [x] Brunsli
 
 ### Base64
-| CodecID - `base64`
-|-
-Provides Base64 encoding and decoding functions as defined by RFC 2045 (section 6.8). and used for Encoding and Decoding an object into ASCII format.
-Can handle both encode and decode operations seemlessly because of fast speeds. 
-This codec operates directly on byte streams, and not character streams, it is hard-coded to only encode/decode character encodings which are compatible with the lower 127 ASCII chart (ISO-8859-1, Windows-1252, UTF-8, etc).
+| CodecID - `base64` |
+|-------------------:|
+| Provides Base64 encoding and decoding functions as defined by RFC 2045 (section 6.8). and used for Encoding and Decoding an object into ASCII format. |
+| Can handle both encode and decode operations seemlessly because of fast speeds. |
+| This codec operates directly on byte streams, and not character streams, it is hard-coded to only encode/decode character encodings which are compatible with the lower 127 ASCII chart (ISO-8859-1, Windows-1252, UTF-8, etc). |
 
 Related Links:
 [Wikipedia](https://en.wikipedia.org/wiki/Base64)
