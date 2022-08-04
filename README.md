@@ -19,7 +19,7 @@ To know more about codecs, refer to this Research File
 
 | **CodecID** | **CodecName** | **SourceCode** | **Type** | **Description** | **LastUpdate** |
 |---|---|---|---|---|---|
-| None | Checksum 32 |  | Numcodecs | Checksum Algorithm | 08/07/22 |
+| None | Checksum 32 | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/checksum32.py) | Numcodecs | Checksum Algorithm | 08/07/22 |
 | None | Compat |  | Numcodecs |  | 08/07/22 |
 | msgpack2 | MsgPack |  | Numcodecs | Codec to encode data as msgpacked bytes. Useful for encoding an array of Python | 08/07/22 |
 | base64 | Base64 |  | Numcodecs | Codec providing base64 compression via the Python standard library. | 08/07/22 |
