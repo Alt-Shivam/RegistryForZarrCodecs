@@ -260,7 +260,7 @@ Related links:
 [Python-BZ2](https://docs.python.org/3/library/bz2.html)
 [GitHub](https://github.com/libarchive/bzip2)
 
-### LZ4, 
+### LZ4
 * The LZ4 algorithm works by representing the data as a series of sequences. Each sequence begins with a one-byte token that is broken into two 4-bit fields. The first field represents the number of literal bytes that are to be copied to the output.
 * This algorithm provides a good combination of speed and compression. But not very useful in the latest test cases.
 * Provides a smaller or we can say worse compression ratio than LZO algorithm, and even more worse when compared to DEFLATE.
@@ -270,7 +270,7 @@ Related links:
 [GitHub](https://github.com/lz4/lz4)
 [Wikipedia](https://en.wikipedia.org/wiki/LZ4_(compression_algorithm))
 
-### LZ4HC, 
+### LZ4HC 
 * LZ4HC is a "high-compression" variant of LZ4 in which the compressor finds more than one match between current and past data and looks for the best match to ensure the output is small.
 * The Apache Hadoop system uses this algorithm for fast compression. LZ4 was also implemented natively in the Linux kernel.
 * LZ4HC has a high compression ratio but low compression speed as compared to LZ4.
@@ -280,7 +280,7 @@ Related LInks:
 [Github](https://github.com/bwlewis/lz4/blob/master/src/lz4hc.h)
 [Doc](https://hg.mozilla.org/mozilla-central/file/tip/mfbt/lz4/lz4hc.h)
 
-### LZW, 
+### LZW
 * LZW compression uses a table-based lookup algorithm that identifies repeated sequences in the data and adds them to the code table. Also the Decoding is achieved by taking each code from the compressed file and translating it through the code table to find what character or characters it represents.
 * Most commonly used to compress GIF image format served from Web sites and the TIFF image format.
 * The advantage of LZW is its simplicity, fast execution.
@@ -308,7 +308,7 @@ Related Links:
 	
 
 
-### LZF, 
+### LZF 
 * A Java library with no Huffman-encoding is used for encoding and decoding data in LZF format.
 * This algorithm is optimized for speed with an average compression ratio.
 * When compared to standard Deflate algo LZF can give 5 to 6 times faster compression and 2 times faster decompression.
