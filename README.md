@@ -41,25 +41,33 @@ To know more about codecs, refer to this Research File
 | astype | Astype | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/astype.py) | Numcodecs | Filter to convert data between different types. | 08/07/22 |
 | bitround | Bitround | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/bitround.py) | Numcodecs | Floating-point bit rounding codec | 08/07/22 |
 | json2 | JSON | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/json.py) | Numcodecs | Codec to encode data as JSON. Useful for encoding an array of Python objects. | 08/07/22 |
-| None | AEC | [Link]() | ImageCodecs |  | 08/07/22 |
-| None | APNG | [Link]() | ImageCodecs |  | 08/07/22 |
-| None | AVIF | [Link]() | ImageCodecs |  | 08/07/22 |
-| None | Brotli | [Link]() | ImageCodecs |  | 08/07/22 |
-| None | Brunsli | [Link]() | ImageCodecs |  | 08/07/22 |
-| None | Deflate64 / Enhanced Deflate | [Link]() | Others |  | 08/07/22 |
-| None | Snappy | [Link]() | Others |  | 08/07/22 |
-| None | LZS | [Link]() | Others |  | 08/07/22 |
-| None | LZSS | [Link]() | Others |  | 08/07/22 |
-| None | LZO | [Link]() | Others |  | 08/07/22 |
-| None | LZFSE | [Link]() | Others |  | 08/07/22 |
-| None | ZFP | [Link]() | Others |  | 08/07/22 |
-| None | LZRW | [Link]() | Others |  | 08/07/22 |
-| None | LZX | [Link]() | Others |  | 08/07/22 |
-| None | LZWL | [Link]() | Others |  | 08/07/22 |
-| None | LZ4HC | [Link]() | Others |  | 08/07/22 |
-| None | LZW | [Link]() | Others |  | 08/07/22 |
-| None | LZF | [Link]() | Others |  | 08/07/22 |
-| None | GZIP | [Link]() | Others |  | 08/07/22 |
+| None | AEC | [Link]()* | ImageCodecs |  | 08/07/22 |
+| None | APNG | [Link]()* | ImageCodecs |  | 08/07/22 |
+| None | AVIF | [Link]()* | ImageCodecs |  | 08/07/22 |
+| None | Brotli | [Link]()* | ImageCodecs |  | 08/07/22 |
+| None | Brunsli | [Link]()* | ImageCodecs |  | 08/07/22 |
+| None | LJpeg | [Link](https://github.com/libjpeg-turbo/libjpeg-turbo) | ImageCodecs |  | 04/08/22 |
+| None | LZ4 | [Link](https://github.com/lz4/lz4) | ImageCodecs |  | 04/08/22 |
+| None | MozJpeg | [Link](https://github.com/mozilla/mozjpeg) | ImageCodecs |  | 04/08/22 |
+| None | Pglz | [Link]()* | ImageCodecs |  | 04/08/22 |
+| None | Png | [Link](https://github.com/glennrp/libpng) | ImageCodecs |  | 04/08/22 |
+| None | qoi | [Link](https://github.com/phoboslab/qoi) | ImageCodecs |  | 04/08/22 |
+| None |  | [Link]()* | ImageCodecs |  | 04/08/22 |
+| None | Deflate64 / Enhanced Deflate | [Link]()* | Others |  | 08/07/22 |
+| None | Snappy | [Link]()* | Others |  | 08/07/22 |
+| None | LZS | [Link]()* | Others |  | 08/07/22 |
+| None | LZSS | [Link]()* | Others |  | 08/07/22 |
+| None | LZO | [Link]()* | Others |  | 08/07/22 |
+| None | LZFSE | [Link]()* | Others |  | 08/07/22 |
+| None | ZFP | [Link]()* | Others |  | 08/07/22 |
+| None | LZRW | [Link]()* | Others |  | 08/07/22 |
+| None | LZX | [Link]()* | Others |  | 08/07/22 |
+| None | LZWL | [Link]()* | Others |  | 08/07/22 |
+| None | LZ4HC | [Link]()* | Others |  | 08/07/22 |
+| None | LZW | [Link]()* | Others |  | 08/07/22 |
+| None | LZF | [Link]()* | Others |  | 08/07/22 |
+| None | GZIP | [Link]()* | Others |  | 08/07/22 |
+
 
 ## Haven't found your codec listed here?
 You can easily add your codec by following these simple steps. :tada:
