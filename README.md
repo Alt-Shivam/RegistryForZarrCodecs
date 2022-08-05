@@ -41,59 +41,54 @@ To know more about codecs, refer to this Research File
 | astype | Astype | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/astype.py) | Numcodecs | Filter to convert data between different types. | 08/07/22 |
 | bitround | Bitround | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/bitround.py) | Numcodecs | Floating-point bit rounding codec | 08/07/22 |
 | json2 | JSON | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/json.py) | Numcodecs | Codec to encode data as JSON. Useful for encoding an array of Python objects. | 08/07/22 |
-| None | AEC | [Link]()* | ImageCodecs |  | 08/07/22 |
-| None | APNG | [Link]()* | ImageCodecs |  | 08/07/22 |
-| None | AVIF | [Link]()* | ImageCodecs |  | 08/07/22 |
-| None | Brotli | [Link]()* | ImageCodecs |  | 08/07/22 |
-| None | Brunsli | [Link]()* | ImageCodecs |  | 08/07/22 |
+| None | AEC | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_aec.pyx) | ImageCodecs |  | 08/07/22 |
+| None | APNG | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_apng.pyx) | ImageCodecs |  | 08/07/22 |
+| None | AVIF | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_avif.pyx) | ImageCodecs |  | 08/07/22 |
+| None | Brotli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_brotli.pyx) | ImageCodecs |  | 08/07/22 |
+| None | Brunsli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_brunsli.pyx) | ImageCodecs |  | 08/07/22 |
 | None | LJpeg | [Link](https://github.com/libjpeg-turbo/libjpeg-turbo) | ImageCodecs |  | 04/08/22 |
-| None | LZ4 | [Link](https://github.com/lz4/lz4) | ImageCodecs |  | 04/08/22 |
 | None | MozJpeg | [Link](https://github.com/mozilla/mozjpeg) | ImageCodecs |  | 04/08/22 |
-| None | Pglz | [Link]()* | ImageCodecs |  | 04/08/22 |
+| None | Pglz | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_pglz.pyx) | ImageCodecs |  | 04/08/22 |
 | None | Png | [Link](https://github.com/glennrp/libpng) | ImageCodecs |  | 04/08/22 |
-| None | qoi | [Link](https://github.com/phoboslab/qoi) | ImageCodecs |  | 04/08/22 |
-| None |  | [Link]()* | ImageCodecs |  | 04/08/22 |
-| None | Deflate64 / Enhanced Deflate | [Link]()* | Others |  | 08/07/22 |
-| None | Snappy | [Link]()* | Others |  | 08/07/22 |
-| None | LZS | [Link]()* | Others |  | 08/07/22 |
-| None | LZSS | [Link]()* | Others |  | 08/07/22 |
-| None | LZO | [Link]()* | Others |  | 08/07/22 |
-| None | LZFSE | [Link]()* | Others |  | 08/07/22 |
-| None | ZFP | [Link]()* | Others |  | 08/07/22 |
+| None | Qoi | [Link](https://github.com/phoboslab/qoi) | ImageCodecs |  | 04/08/22 |
+| None | Rcomp | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_rcomp.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Shared | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_shared.pyx) | ImageCodecs |  | 04/08/22 |
+| None | SPng | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_spng.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Szip | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_szip.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Tiff | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_tiff.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Webp | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_webp.pyx) | ImageCodecs |  | 04/08/22 |
+| None | ZLibng | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_zlibng.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Zopfli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_zopfli.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Avif | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_avif.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Cms | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_cms.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Deflate | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_deflate.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Gif | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_gif.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Heif | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_heif.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jetraw | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jetraw.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jpeg12 | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpeg12.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jpeg2k | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpeg2k.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jpeg8 | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpeg8.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jpegls | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpegls.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jpegsof3 | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpegsof3.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jpegxl | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpegxl.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Jpegxr | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpegxr.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Lerc | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_lerc.pyx) | ImageCodecs |  | 04/08/22 |
+| None | Deflate64 / Enhanced Deflate | [Link](https://github.com/brianhelba/zipfile-deflate64) | Others |  | 08/07/22 |
+| None | Snappy | [Link](https://github.com/google/snappy) | Others |  | 08/07/22 |
+| None | LZS | [Link](https://github.com/m-boutaleb/LZS) | Others |  | 08/07/22 |
+| None | LZSS | [Link](https://github.com/MichaelDipperstein/lzss) | Others |  | 08/07/22 |
+| None | LZO | [Link](https://github.com/nemequ/lzo) | Others |  | 08/07/22 |
+| None | LZFSE | [Link](https://github.com/lzfse/lzfse) | Others |  | 08/07/22 |
+| None | ZFP | [Link](https://github.com/LLNL/zfp) | Others |  | 08/07/22 |
 | None | LZRW | [Link]()* | Others |  | 08/07/22 |
 | None | LZX | [Link]()* | Others |  | 08/07/22 |
 | None | LZWL | [Link]()* | Others |  | 08/07/22 |
-| None | LZ4HC | [Link]()* | Others |  | 08/07/22 |
+| None | LZ4HC | [Link](https://github.com/bwlewis/lz4) | Others |  | 08/07/22 |
 | None | LZW | [Link]()* | Others |  | 08/07/22 |
-| None | LZF | [Link]()* | Others |  | 08/07/22 |
-| None | GZIP | [Link]()* | Others |  | 08/07/22 |
+| None | LZF | [Link](https://github.com/nemequ/liblzf) | Others |  | 08/07/22 |
+| None | GZIP | [Link](https://github.com/kunpengcompute/gzip) | Others |  | 08/07/22 |
 
 
 ## Haven't found your codec listed here?
-You can easily add your codec by following these simple steps. :tada:
-### Steps to follow.
-**Step.1**- Make sure you have the Codec related information in the following manner.
-```
-* Blosc
-- A brief about how the compression technique works(2-3 lines)
-- Where the codec is primarily used(webpages, PNGs, JPEGs, OS etc.)
-- Comparing compression and decompression benchmarks/speeds
-- Any other info you think is useful
-- Important links for the codec(GitHub, Blog post, Implementations etc.)
+* Add Now!
 
-```
-
-**Step.2**- Clone and make changes to these project files.
-
-* clone the repo.
-```bash
-git clone https://github.com/Alt-Shivam/Codecs-Registry.git
-```
-
-* Add your codec information in Registry.csv file.
-
-* Make changes to README.md file of branch gh-pages.
-
-**Step.3**- Push your changes to your forked repo and Generate a Pull Request.
-
-### Thanks for Visiting!!!
