@@ -89,6 +89,6 @@ To know more about codecs, refer to this Research File
 | None | GZIP | [Link](https://github.com/kunpengcompute/gzip) | Others |  | 08/07/22 |
 
 
-## Haven't found your codec listed here?
-* Add Now!
+## Haven't found a codec listed here?
+* [Add Now!](https://alt-shivam.github.io/Codecs-Registry/Others/AddNewCodec)
 
