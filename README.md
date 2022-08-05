@@ -42,9 +42,9 @@ To know more about codecs, refer to this Research File
 | bitround | Bitround | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/bitround.py) | Numcodecs | Floating-point bit rounding codec | 08/07/22 |
 | json2 | JSON | [Link](https://github.com/zarr-developers/numcodecs/blob/main/numcodecs/json.py) | Numcodecs | Codec to encode data as JSON. Useful for encoding an array of Python objects. | 08/07/22 |
 | None | AEC | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_aec.pyx) | ImageCodecs |  | 08/07/22 |
-| None | APNG | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_apng.pyx) | ImageCodecs |  | 08/07/22 |
-| None | AVIF | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_avif.pyx) | ImageCodecs |  | 08/07/22 |
-| None | Brotli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_brotli.pyx) | ImageCodecs |  | 08/07/22 |
+| None | APNG | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_apng.pyx) | ImageCodecs | APNG is a file format which extends the PNG specs to permit animated images that work similar to animated GIF files, while supporting 24-bit images and 8-bit transparency not available for GIFs.  | 08/07/22 |
+| None | AVIF | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_avif.pyx) | ImageCodecs | AVIF is an image file format spec for storing images or image sequences compressed with AV1 in the HEIF container format. | 08/07/22 |
+| None | Brotli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_brotli.pyx) | ImageCodecs | lossless data compression algorithm which uses a combination of LZ77 lossless compression algorithm, Huffman coding and 2nd order context modelling. | 08/07/22 |
 | None | Brunsli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_brunsli.pyx) | ImageCodecs |  | 08/07/22 |
 | None | LJpeg | [Link](https://github.com/libjpeg-turbo/libjpeg-turbo) | ImageCodecs |  | 04/08/22 |
 | None | MozJpeg | [Link](https://github.com/mozilla/mozjpeg) | ImageCodecs |  | 04/08/22 |
