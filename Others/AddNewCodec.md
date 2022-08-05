@@ -1,6 +1,6 @@
-# Guide to Add your own codec. :tada:
+# Guide To Add New Codec.
 
-You can easily add your codec by following these simple steps. :tada:
+You can easily add a codec by following these simple steps.
 ### Steps to follow.
 **Step.1**- Make sure you have the Codec related information in the following manner.
 ```
