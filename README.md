@@ -46,11 +46,11 @@ To know more about codecs, refer to this Research File
 | None | AVIF | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_avif.pyx) | ImageCodecs | AVIF is an image file format spec for storing images or image sequences compressed with AV1 in the HEIF container format. | 08/07/22 |
 | None | Brotli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_brotli.pyx) | ImageCodecs | lossless data compression algorithm which uses a combination of LZ77 lossless compression algorithm, Huffman coding and 2nd order context modelling. | 08/07/22 |
 | None | Brunsli | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_brunsli.pyx) | ImageCodecs |  | 08/07/22 |
-| None | LJpeg | [Link](https://github.com/libjpeg-turbo/libjpeg-turbo) | ImageCodecs |  | 04/08/22 |
+| None | LJpeg | [Link](https://github.com/libjpeg-turbo/libjpeg-turbo) | ImageCodecs | LJPEG is a mode of operation of JPEG. This mode exists because the discrete cosine transform (DCT) based form cannot guarantee that encoder input would exactly match decoder output. | 04/08/22 |
 | None | MozJpeg | [Link](https://github.com/mozilla/mozjpeg) | ImageCodecs |  | 04/08/22 |
 | None | Pglz | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_pglz.pyx) | ImageCodecs |  | 04/08/22 |
-| None | Png | [Link](https://github.com/glennrp/libpng) | ImageCodecs |  | 04/08/22 |
-| None | Qoi | [Link](https://github.com/phoboslab/qoi) | ImageCodecs |  | 04/08/22 |
+| None | Png | [Link](https://github.com/glennrp/libpng) | ImageCodecs | PNG is a raster-graphics file format that supports lossless data compression and supports palette-based images, grayscale images, and full-color non-palette-based RGB or RGBA images. | 04/08/22 |
+| None | Qoi | [Link](https://github.com/phoboslab/qoi) | ImageCodecs | QOI is a specification for lossless image compression of 24-bit or 32-bit color raster (bitmapped) images. | 04/08/22 |
 | None | Rcomp | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_rcomp.pyx) | ImageCodecs |  | 04/08/22 |
 | None | Shared | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_shared.pyx) | ImageCodecs |  | 04/08/22 |
 | None | SPng | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_spng.pyx) | ImageCodecs |  | 04/08/22 |
