@@ -1,2 +1,9 @@
+logo: "/Logo/logo1.png"
 remote_theme: just-the-docs/just-the-docs
 show_downloads: true
+aux_links:
+  "Zarr-Developers on GitHub":
+    - "//github.com/zarr-developers/"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
