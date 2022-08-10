@@ -1,0 +1,16 @@
+{
+    "codec": [
+ 
+       {
+          "CodecId": "msgpack2",
+          "name": "MsgPack",
+          "description": "Codec to encode data as msgpacked bytes. Useful for encoding an array of Python"
+       },
+ 
+       {
+          "CodecId": "base64",
+          "name": "Base64",
+          "description": "Codec providing base64 compression via the Python standard library."
+       }
+    ]
+ }
