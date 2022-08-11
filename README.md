@@ -1,18 +1,8 @@
 ![image](https://user-images.githubusercontent.com/81817735/177476995-580fb2ed-0b4e-4bde-bfba-1fc70b044916.png)
 
-# Registry (Zarr-Codecs)
-## Created
+# Registry (Zarr-Codecs)  
 
-2022-07-01
-## Last Updated
-
-2022-07-13
-## Maintained By [Zarr-Developers](https://github.com/zarr-developers)
-
-To know more about codecs, refer to this Research File
-
-### [Link](https://alt-shivam.github.io/Codecs-Registry/Others/Research)
-## Download this Registry
+## Download this Registry  
 * [CSV](https://downgit.github.io/#/home?url=https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
 
 ## Registry
@@ -72,6 +62,20 @@ To know more about codecs, refer to this Research File
 | None | Jpegxr | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpegxr.pyx) | ImageCodecs |  | 04/08/22 |
 | None | Lerc | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_lerc.pyx) | ImageCodecs |  | 04/08/22 |
 
+## To know more about codecs, refer to this Research File: [Link](https://alt-shivam.github.io/Codecs-Registry/Others/Research)
+
+## CodecID Naming Convention: [Link](https://alt-shivam.github.io/Codecs-Registry/Others/CodecID_Naming_Convention.html)
+
+## Created  
+2022-07-01
+
+## Last Updated  
+2022-07-13
+
+## Maintainer: [Zarr-Developers](https://github.com/zarr-developers)
+### Author: [Shivank Chaudhary](https://github.com/Alt-Shivam)  
+
+## To know more about codecs, refer to this Research File: [Link](https://alt-shivam.github.io/Codecs-Registry/Others/Research)
 
 ## Haven't found a codec listed here?
 * [Add Now!](https://alt-shivam.github.io/Codecs-Registry/Others/AddNewCodec)
