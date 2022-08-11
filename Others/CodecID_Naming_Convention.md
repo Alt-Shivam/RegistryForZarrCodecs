@@ -1,11 +1,11 @@
 # Naming Convention for Codec ID's. 
 
-Currently, We have different 2 types of Codecs available in this **Codec Registry** i.e 
+Currently, We have 2 different types of Codecs available in this **Codec Registry** i.e 
 * NumCodecs
 * ImageCodecs
 
-The codecs from Numcodecs have already assigned with CodecID's, but Imagecodecs are not. 
-So, For ImageCodecs without CodecID's, The naming convention will be, as follows:
+The codecs from Numcodecs have already assigned with CodecID's, but Imagecodecs are not.  
+So, For ImageCodecs without CodecID's, The naming convention is, as follows:
 
 ```
 imagecodecs_{CodecName}
