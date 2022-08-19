@@ -4,7 +4,8 @@
 Zarr is a chunked compressed format for the storage of N-dimensional arrays like those created by NumPy. Each compression algorithm used by Zarr is assigned an identifier by the numcodecs library. This registry makes these identifiers useful in other programming languages.  
 
 ## Download this Registry  
-* [CSV](https://downgit.github.io/#/home?url=https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
+* [CSV](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
+* [Json](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/codec.json)
 
 ## Registry
 
