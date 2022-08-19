@@ -7,13 +7,13 @@ categorize,Categorize,Numcodecs,Filter encoding categorical string data as integ
 delta,Delta,Numcodecs,Codec to encode data as the difference between adjacent values.,08/07/22
 fixedscaleoffset,FixedScaleOffset,Numcodecs,"Applies the transformation `(x - offset) * scale` to all chunks.  Results
     are rounded to the nearest integer",08/07/22
-blosc,Blosc,Numcodecs,,08/07/22
+blosc,Blosc,Numcodecs,Codec providing compression using the Blosc meta-compressor.,08/07/22
 gzip,GZIP,Numcodecs,Codec providing gzip compression using zlib via the Python standard library.,08/07/22
 bz2,BZ2,Numcodecs,Codec providing compression using bzip2 via the Python standard library.,08/07/22
 lzma,LZMA,Numcodecs,Codec providing compression using lzma via the Python standard library.,08/07/22
-lz4,LZ4,Numcodecs,,08/07/22
+lz4,LZ4,Numcodecs,Codec providing compression using LZ4.,08/07/22
 zlib,Zlib (DEFLATE),Numcodecs,Codec providing compression using zlib via the Python standard library.,08/07/22
-zstd,ZStandard (ZSTD),Numcodecs,,08/07/22
+zstd,ZStandard (ZSTD),Numcodecs,Codec providing compression using Zstandard.,08/07/22
 packbits,PackBits,Numcodecs,Codec to pack elements of a boolean array into bits in a uint8 array.,08/07/22
 pickle,Pickle,Numcodecs,Codec to encode data as as pickled bytes. Useful for encoding an array of Python string objects.,08/07/22
 quantize,Quantize,Numcodecs,Lossy filter to reduce the precision of floating point data.,08/07/22
@@ -22,25 +22,25 @@ zfpy,ZFPY,Numcodecs,Codec providing compression using zfpy via the Python standa
 astype,Astype,Numcodecs,Filter to convert data between different types.,08/07/22
 bitround,Bitround,Numcodecs,Floating-point bit rounding codec,08/07/22
 json2,JSON,Numcodecs,Codec to encode data as JSON. Useful for encoding an array of Python objects.,08/07/22
-None,AEC,ImageCodecs,,08/07/22
-None,APNG,ImageCodecs,,08/07/22
-None,AVIF,ImageCodecs,,08/07/22
-None,Brotli,ImageCodecs,,08/07/22
-None,Brunsli,ImageCodecs,,08/07/22
-None,LJpeg,ImageCodecs,,08/07/22
-None,MozJpeg,ImageCodecs,,08/07/22
+None,AEC,ImageCodecs,Codec to implement the acoustic echo cancellation (AEC) and noise suppression (NS) algorithms.,08/07/22
+None,APNG,ImageCodecs,"APNG is a file format which extends the PNG specs to permit animated images that work similar to animated GIF files, while supporting 24-bit images and 8-bit transparency not available for GIFs.",08/07/22
+None,AVIF,ImageCodecs,AVIF is an image file format spec for storing images or image sequences compressed with AV1 in the HEIF container format.,08/07/22
+None,Brotli,ImageCodecs,"lossless data compression algorithm which uses a combination of LZ77 lossless compression algorithm, Huffman coding and 2nd order context modelling.",08/07/22
+None,Brunsli,ImageCodecs,Brunsli works as a transcoder converting between JPEG and JPEG XL.,08/07/22
+None,LJpeg,ImageCodecs,LJPEG is a mode of operation of JPEG. This mode exists because the discrete cosine transform (DCT) based form cannot guarantee that encoder input would exactly match decoder output.,08/07/22
+None,MozJpeg,ImageCodecs,MozJPEG improves JPEG compression efficiency achieving higher visual quality and smaller file sizes at the same time and compatible with the JPEG standard,08/07/22
 None,Pglz,ImageCodecs,,08/07/22
-None,Png,ImageCodecs,,08/07/22
-None,Qoi,ImageCodecs,,08/07/22
-None,Rcomp,ImageCodecs,,08/07/22
+None,Png,ImageCodecs,"PNG is a raster-graphics file format that supports lossless data compression and supports palette-based images, grayscale images, and full-color non-palette-based RGB or RGBA images.",08/07/22
+None,Qoi,ImageCodecs,QOI is a specification for lossless image compression of 24-bit or 32-bit color raster (bitmapped) images.,08/07/22
+None,Rcomp,ImageCodecs,Rcomp codec is an implementation of the Rice algorithm,08/07/22
 None,Shared,ImageCodecs,,08/07/22
-None,SPng,ImageCodecs,,08/07/22
+None,SPng,ImageCodecs,Codec to convert numpy array to PNG image and vice versa.,08/07/22
 None,Szip,ImageCodecs,,08/07/22
-None,Tiff,ImageCodecs,,08/07/22
-None,Webp,ImageCodecs,,08/07/22
+None,Tiff,ImageCodecs,Codec to convert numpy array to TIFF image and vice versa.,08/07/22
+None,Webp,ImageCodecs,Codec to convert numpy array to WebP image.,08/07/22
 None,ZLibng,ImageCodecs,,08/07/22
-None,Zopfli,ImageCodecs,,08/07/22
-None,Avif,ImageCodecs,,08/07/22
+None,Zopfli,ImageCodecs,Codec to Compress Zlib format using Zopfli.,08/07/22
+None,Avif,ImageCodecs,Codec to convert numpy array to AVIF image.,08/07/22
 None,Cms,ImageCodecs,,08/07/22
 None,Deflate,ImageCodecs,,08/07/22
 None,Gif,ImageCodecs,,08/07/22
@@ -54,17 +54,3 @@ None,Jpegsof3,ImageCodecs,,08/07/22
 None,Jpegxl,ImageCodecs,,08/07/22
 None,Jpegxr,ImageCodecs,,08/07/22
 None,Lerc,ImageCodecs,,08/07/22
-None,Deflate64 / Enhanced Deflate,Others,,08/07/22
-None,Snappy,Others,,08/07/22
-None,LZS,Others,,08/07/22
-None,LZSS,Others,,08/07/22
-None,LZO,Others,,08/07/22
-None,LZFSE,Others,,08/07/22
-None,ZFP,Others,,08/07/22
-None,LZRW,Others,,08/07/22
-None,LZX,Others,,08/07/22
-None,LZWL,Others,,08/07/22
-None,LZ4HC,Others,,08/07/22
-None,LZW,Others,,08/07/22
-None,LZF,Others,,08/07/22
-None,GZIP,Others,,08/07/22
