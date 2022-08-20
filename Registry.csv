@@ -1,6 +1,5 @@
 CodecID,CodecName,Type,Description,LastUpdate
 None,Checksum 32,Numcodecs,Checksum Algorithm,08/07/22
-None,Compat,Numcodecs,,08/07/22
 msgpack2,MsgPack,Numcodecs,Codec to encode data as msgpacked bytes. Useful for encoding an array of Python,08/07/22
 base64,Base64,Numcodecs,Codec providing base64 compression via the Python standard library.,08/07/22
 categorize,Categorize,Numcodecs,Filter encoding categorical string data as integers.,08/07/22
@@ -22,35 +21,34 @@ zfpy,ZFPY,Numcodecs,Codec providing compression using zfpy via the Python standa
 astype,Astype,Numcodecs,Filter to convert data between different types.,08/07/22
 bitround,Bitround,Numcodecs,Floating-point bit rounding codec,08/07/22
 json2,JSON,Numcodecs,Codec to encode data as JSON. Useful for encoding an array of Python objects.,08/07/22
-None,AEC,ImageCodecs,Codec to implement the acoustic echo cancellation (AEC) and noise suppression (NS) algorithms.,08/07/22
-None,APNG,ImageCodecs,"APNG is a file format which extends the PNG specs to permit animated images that work similar to animated GIF files, while supporting 24-bit images and 8-bit transparency not available for GIFs.",08/07/22
-None,AVIF,ImageCodecs,AVIF is an image file format spec for storing images or image sequences compressed with AV1 in the HEIF container format.,08/07/22
-None,Brotli,ImageCodecs,"lossless data compression algorithm which uses a combination of LZ77 lossless compression algorithm, Huffman coding and 2nd order context modelling.",08/07/22
-None,Brunsli,ImageCodecs,Brunsli works as a transcoder converting between JPEG and JPEG XL.,08/07/22
-None,LJpeg,ImageCodecs,LJPEG is a mode of operation of JPEG. This mode exists because the discrete cosine transform (DCT) based form cannot guarantee that encoder input would exactly match decoder output.,08/07/22
-None,MozJpeg,ImageCodecs,MozJPEG improves JPEG compression efficiency achieving higher visual quality and smaller file sizes at the same time and compatible with the JPEG standard,08/07/22
-None,Pglz,ImageCodecs,,08/07/22
-None,Png,ImageCodecs,"PNG is a raster-graphics file format that supports lossless data compression and supports palette-based images, grayscale images, and full-color non-palette-based RGB or RGBA images.",08/07/22
-None,Qoi,ImageCodecs,QOI is a specification for lossless image compression of 24-bit or 32-bit color raster (bitmapped) images.,08/07/22
-None,Rcomp,ImageCodecs,Rcomp codec is an implementation of the Rice algorithm,08/07/22
-None,Shared,ImageCodecs,,08/07/22
-None,SPng,ImageCodecs,Codec to convert numpy array to PNG image and vice versa.,08/07/22
-None,Szip,ImageCodecs,,08/07/22
-None,Tiff,ImageCodecs,Codec to convert numpy array to TIFF image and vice versa.,08/07/22
-None,Webp,ImageCodecs,Codec to convert numpy array to WebP image.,08/07/22
-None,ZLibng,ImageCodecs,,08/07/22
-None,Zopfli,ImageCodecs,Codec to Compress Zlib format using Zopfli.,08/07/22
-None,Avif,ImageCodecs,Codec to convert numpy array to AVIF image.,08/07/22
-None,Cms,ImageCodecs,,08/07/22
-None,Deflate,ImageCodecs,,08/07/22
-None,Gif,ImageCodecs,,08/07/22
-None,Heif,ImageCodecs,,08/07/22
-None,Jetraw,ImageCodecs,,08/07/22
-None,Jpeg12,ImageCodecs,,08/07/22
-None,Jpeg2k,ImageCodecs,,08/07/22
-None,Jpeg8,ImageCodecs,,08/07/22
-None,Jpegls,ImageCodecs,,08/07/22
-None,Jpegsof3,ImageCodecs,,08/07/22
-None,Jpegxl,ImageCodecs,,08/07/22
-None,Jpegxr,ImageCodecs,,08/07/22
-None,Lerc,ImageCodecs,,08/07/22
+imagecodecs_aec,AEC,ImageCodecs,Codec to implement the acoustic echo cancellation (AEC) and noise suppression (NS) algorithms.,08/07/22
+imagecodecs_apng,APNG,ImageCodecs,"APNG is a file format which extends the PNG specs to permit animated images that work similar to animated GIF files, while supporting 24-bit images and 8-bit transparency not available for GIFs.",08/07/22
+imagecodecs_avif,AVIF,ImageCodecs,AVIF is an image file format spec for storing images or image sequences compressed with AV1 in the HEIF container format.,08/07/22
+imagecodecs_brotli,Brotli,ImageCodecs,"lossless data compression algorithm which uses a combination of LZ77 lossless compression algorithm, Huffman coding and 2nd order context modelling.",08/07/22
+imagecodecs_brunsli,Brunsli,ImageCodecs,Brunsli works as a transcoder converting between JPEG and JPEG XL.,08/07/22
+imagecodecs_ljpeg,LJpeg,ImageCodecs,LJPEG is a mode of operation of JPEG. This mode exists because the discrete cosine transform (DCT) based form cannot guarantee that encoder input would exactly match decoder output.,08/07/22
+imagecodecs_mozjpeg ,MozJpeg,ImageCodecs,MozJPEG improves JPEG compression efficiency achieving higher visual quality and smaller file sizes at the same time and compatible with the JPEG standard,08/07/22
+imagecodecs_pglz,Pglz,ImageCodecs,,08/07/22
+imagecodecs_png,Png,ImageCodecs,"PNG is a raster-graphics file format that supports lossless data compression and supports palette-based images, grayscale images, and full-color non-palette-based RGB or RGBA images.",08/07/22
+imagecodecs_qoi,Qoi,ImageCodecs,QOI is a specification for lossless image compression of 24-bit or 32-bit color raster (bitmapped) images.,08/07/22
+imagecodecs_rcomp,Rcomp,ImageCodecs,Rcomp codec is an implementation of the Rice algorithm,08/07/22
+imagecodecs_spng,SPng,ImageCodecs,Codec to convert numpy array to PNG image and vice versa.,08/07/22
+imagecodecs_szip,Szip,ImageCodecs,,08/07/22
+imagecodecs_tiff,Tiff,ImageCodecs,Codec to convert numpy array to TIFF image and vice versa.,08/07/22
+imagecodecs_webp,Webp,ImageCodecs,Codec to convert numpy array to WebP image.,08/07/22
+imagecodecs_zlibng,ZLibng,ImageCodecs,,08/07/22
+imagecodecs_zopfli,Zopfli,ImageCodecs,Codec to Compress Zlib format using Zopfli.,08/07/22
+imagecodecs_avif,Avif,ImageCodecs,Codec to convert numpy array to AVIF image.,08/07/22
+imagecodecs_cms,Cms,ImageCodecs,,08/07/22
+imagecodecs_deflate,Deflate,ImageCodecs,,08/07/22
+imagecodecs_gif,Gif,ImageCodecs,,08/07/22
+imagecodecs_heif ,Heif,ImageCodecs,,08/07/22
+imagecodecs_jetraw,Jetraw,ImageCodecs,,08/07/22
+imagecodecs_jpeg12,Jpeg12,ImageCodecs,,08/07/22
+imagecodecs_jpeg2k,Jpeg2k,ImageCodecs,,08/07/22
+imagecodecs_jpeg8,Jpeg8,ImageCodecs,,08/07/22
+imagecodecs_jpegls,Jpegls,ImageCodecs,,08/07/22
+imagecodecs_jpegsof3,Jpegsof3,ImageCodecs,,08/07/22
+imagecodecs_jpegxl,Jpegxl,ImageCodecs,,08/07/22
+imagecodecs_jpegxr,Jpegxr,ImageCodecs,,08/07/22
+imagecodecs_lerc,Lerc,ImageCodecs,,08/07/22
