@@ -5,7 +5,7 @@ Zarr is a chunked compressed format for the storage of N-dimensional arrays like
 
 ## Download this Registry  
 * [CSV](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
-* [Json](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/codec.json)
+* [Json](https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/codec.json)
 
 ## Registry
 
