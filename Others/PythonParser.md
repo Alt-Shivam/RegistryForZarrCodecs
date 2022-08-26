@@ -1,5 +1,5 @@
 # Python Parser
-## want to know which codecs are included in this Registry and Their realted information.
+## Want to know which codecs are included in this Registry and Their realted information?
 
 * Download this script locally.
 ```
