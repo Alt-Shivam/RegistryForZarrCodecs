@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/main.py
 
 * Run
 ```
-python main.py
+python3 main.py
 ```
 
 * Proceed as per the options provided.
