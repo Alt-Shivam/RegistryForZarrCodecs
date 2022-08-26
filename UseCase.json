@@ -1,1 +1,262 @@
-
+[
+    {
+      "CodecID": "None",
+      "CodecName": "Checksum 32",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "msgpack2",
+      "CodecName": "MsgPack",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "base64",
+      "CodecName": "Base64",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "categorize",
+      "CodecName": "Categorize",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "delta",
+      "CodecName": "Delta",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "fixedscaleoffset",
+      "CodecName": "FixedScaleOffset",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "blosc",
+      "CodecName": "Blosc",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "gzip",
+      "CodecName": "GZIP",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "bz2",
+      "CodecName": "BZ2",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "lzma",
+      "CodecName": "LZMA",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "lz4",
+      "CodecName": "LZ4",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "zlib",
+      "CodecName": "Zlib (DEFLATE)",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "zstd",
+      "CodecName": "ZStandard (ZSTD)",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "packbits",
+      "CodecName": "PackBits",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "pickle",
+      "CodecName": "Pickle",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "quantize",
+      "CodecName": "Quantize",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "shuffle",
+      "CodecName": "Shuffle",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "zfpy",
+      "CodecName": "ZFPY",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "astype",
+      "CodecName": "Astype",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "bitround",
+      "CodecName": "Bitround",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "json2",
+      "CodecName": "JSON",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_aec",
+      "CodecName": "AEC",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_apng",
+      "CodecName": "APNG",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_avif",
+      "CodecName": "AVIF",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_brotli",
+      "CodecName": "Brotli",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_brunsli",
+      "CodecName": "Brunsli",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_ljpeg",
+      "CodecName": "LJpeg",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_mozjpeg",
+      "CodecName": "MozJpeg",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_pglz",
+      "CodecName": "Pglz",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_png",
+      "CodecName": "Png",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_qoi",
+      "CodecName": "Qoi",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_rcomp",
+      "CodecName": "Rcomp",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_spng",
+      "CodecName": "SPng",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_szip",
+      "CodecName": "Szip",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_tiff",
+      "CodecName": "Tiff",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_webp",
+      "CodecName": "Webp",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_zlibng",
+      "CodecName": "ZLibng",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_zopfli",
+      "CodecName": "Zopfli",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_avif",
+      "CodecName": "Avif",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_cms",
+      "CodecName": "Cms",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_deflate",
+      "CodecName": "Deflate",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_gif",
+      "CodecName": "Gif",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_heif",
+      "CodecName": "Heif",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jetraw",
+      "CodecName": "Jetraw",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jpeg12",
+      "CodecName": "Jpeg12",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jpeg2k",
+      "CodecName": "Jpeg2k",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jpeg8",
+      "CodecName": "Jpeg8",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jpegls",
+      "CodecName": "Jpegls",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jpegsof3",
+      "CodecName": "Jpegsof3",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jpegxl",
+      "CodecName": "Jpegxl",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_jpegxr",
+      "CodecName": "Jpegxr",
+      "UseCase": ""
+    },
+    {
+      "CodecID": "imagecodecs_lerc",
+      "CodecName": "Lerc",
+      "UseCase": ""
+    }
+  ]
