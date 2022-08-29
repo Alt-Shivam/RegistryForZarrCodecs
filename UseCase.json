@@ -2,12 +2,12 @@
     {
       "CodecID": "None",
       "CodecName": "Checksum 32",
-      "UseCase": ""
+      "UseCase": "Checksum algorithm that implements adler32 and crc32 "
     },
     {
       "CodecID": "msgpack2",
       "CodecName": "MsgPack",
-      "UseCase": ""
+      "UseCase": "import numcodecs\\nimport numpy as np"
     },
     {
       "CodecID": "base64",
