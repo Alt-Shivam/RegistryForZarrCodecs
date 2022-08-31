@@ -37,7 +37,7 @@ if pointer==False:
 
 if pointer==True:
     Choice=input("Do you want to learn more about the codec and how to use it? (y/n)")
-    url2 = "https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/UseCase.json"
+    url2 = "https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/Examples.json"
     s = requests.get(url2)
     DataSet2=(s.json())
     if Choice=="y":
