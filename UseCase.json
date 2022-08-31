@@ -7,102 +7,102 @@
     {
       "CodecID": "msgpack2",
       "CodecName": "MsgPack",
-      "UseCase": "import numcodecs\\nimport numpy as np"
+      "UseCase": ">>> import numcodecs\n>>> import numpy as np\n>>> x = np.array(['foo', 'bar', 'baz'], dtype='object')\n>>> codec = numcodecs.MsgPack()\n>>> codec.decode(codec.encode(x))\narray(['foo', 'bar', 'baz'], dtype=object)"
     },
     {
       "CodecID": "base64",
       "CodecName": "Base64",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "categorize",
       "CodecName": "Categorize",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs \n >>> import numpy as np \n >>> x = np.array(['male', 'female', 'female', 'male', 'unexpected'], dtype=object) \n >>> x \n array(['male', 'female', 'female', 'male', 'unexpected'], \n dtype=object) \n >>> codec = numcodecs.Categorize(labels=['female', 'male'], dtype=object) \n >>> y = codec.encode(x) \n >>> y \n array([2, 1, 1, 2, 0], dtype=uint8) \n >>> z = codec.decode(y) \n >>> z \n array(['male', 'female', 'female', 'male', ''], \n dtype=object)"
     },
     {
       "CodecID": "delta",
       "CodecName": "Delta",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs \n >>> import numpy as np \n >>> x = np.arange(100, 120, 2, dtype='i8') \n >>> codec = numcodecs.Delta(dtype='i8', astype='i1') \n >>> y = codec.encode(x) \n >>> y \n array([100,   2,   2,   2,   2,   2,   2,   2,   2,   2], dtype=int8) \n >>> z = codec.decode(y) \n >>> z \n array([100, 102, 104, 106, 108, 110, 112, 114, 116, 118])"
     },
     {
       "CodecID": "fixedscaleoffset",
       "CodecName": "FixedScaleOffset",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs \n >>> import numpy as np \n >>> x = np.linspace(1000, 1001, 10, dtype='f8') \n >>> x \n array([1000.        , 1000.11111111, 1000.22222222, 1000.33333333, \n 1000.44444444, 1000.55555556, 1000.66666667, 1000.77777778, \n 1000.88888889, 1001.        ]) \n >>> codec = numcodecs.FixedScaleOffset(offset=1000, scale=10, dtype='f8', astype='u1') \n >>> y1 = codec.encode(x) \n >>> y1 \n array([ 0,  1,  2,  3,  4,  6,  7,  8,  9, 10], dtype=uint8) \n >>> z1 = codec.decode(y1) \n >>> z1 \n array([1000. , 1000.1, 1000.2, 1000.3, 1000.4, 1000.6, 1000.7, \n       1000.8, 1000.9, 1001. ]) \n >>> codec = numcodecs.FixedScaleOffset(offset=1000, scale=10**2, dtype='f8', astype='u1') \n >>> y2 = codec.encode(x) \n >>> y2 \n array([ 0,  11,  22,  33,  44,  56,  67,  78,  89, 100], dtype=uint8) \n >>> z2 = codec.decode(y2) \n >>> z2 \n array([1000.  , 1000.11, 1000.22, 1000.33, 1000.44, 1000.56, \n        1000.67, 1000.78, 1000.89, 1001.  ]) \n >>> codec = numcodecs.FixedScaleOffset(offset=1000, scale=10**3, dtype='f8', astype='u2') \n >>> y3 = codec.encode(x) \n >>> y3 \n array([ 0,  111,  222,  333,  444,  556,  667,  778,  889, 1000], dtype=uint16) \n >>> z3 = codec.decode(y3) \n >>> z3 \n array([1000.   , 1000.111, 1000.222, 1000.333, 1000.444, 1000.556, \n        1000.667, 1000.778, 1000.889, 1001.   ])"
     },
     {
       "CodecID": "blosc",
       "CodecName": "Blosc",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "gzip",
       "CodecName": "GZIP",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "bz2",
       "CodecName": "BZ2",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "lzma",
       "CodecName": "LZMA",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "lz4",
       "CodecName": "LZ4",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "zlib",
       "CodecName": "Zlib (DEFLATE)",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "zstd",
       "CodecName": "ZStandard (ZSTD)",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "packbits",
       "CodecName": "PackBits",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs \n >>> import numpy as np \n >>> codec = numcodecs.PackBits() \n >>> x = np.array([True, False, False, True], dtype=bool) \n >>> y = codec.encode(x) \n >>> y \n array([  4, 144], dtype=uint8) \n >>> z = codec.decode(y) \n >>> z \n array([ True, False, False,  True])"
     },
     {
       "CodecID": "pickle",
       "CodecName": "Pickle",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs as codecs \n >>> import numpy as np \n >>> x = np.array(['foo', 'bar', 'baz'], dtype='object') \n >>> f = codecs.Pickle() \n >>> f.decode(f.encode(x)) \n array(['foo', 'bar', 'baz'], dtype=object)"
     },
     {
       "CodecID": "quantize",
       "CodecName": "Quantize",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs \n >>> import numpy as np \n >>> x = np.linspace(0, 1, 10, dtype='f8') \n >>> x \n array([0.        , 0.11111111, 0.22222222, 0.33333333, 0.44444444,\n       0.55555556, 0.66666667, 0.77777778, 0.88888889, 1.        ]) \n >>> codec = numcodecs.Quantize(digits=1, dtype='f8') \n >>> codec.encode(x) \n array([0.    , 0.125 , 0.25  , 0.3125, 0.4375, 0.5625, 0.6875,\n       0.75  , 0.875 , 1.    ]) \n >>> codec = numcodecs.Quantize(digits=2, dtype='f8') \n >>> codec.encode(x) \n array([0.       , 0.109375 , 0.21875  , 0.3359375, 0.4453125, \n        0.5546875, 0.6640625, 0.78125  , 0.890625 , 1.       ]) \n >>> codec = numcodecs.Quantize(digits=3, dtype='f8') \n >>> codec.encode(x) \n array([0.        , 0.11132812, 0.22265625, 0.33300781, 0.44433594, \n        0.55566406, 0.66699219, 0.77734375, 0.88867188, 1.        ])"
     },
     {
       "CodecID": "shuffle",
       "CodecName": "Shuffle",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "zfpy",
       "CodecName": "ZFPY",
-      "UseCase": ""
+      "UseCase": "--"
     },
     {
       "CodecID": "astype",
       "CodecName": "Astype",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs \n >>> import numpy as np \n >>> x = np.arange(100, 120, 2, dtype=np.int8) \n >>> x \n array([100, 102, 104, 106, 108, 110, 112, 114, 116, 118], dtype=int8) \n >>> f = numcodecs.AsType(encode_dtype=x.dtype, decode_dtype=np.int64) \n >>> y = f.decode(x) \n >>> y \n array([100, 102, 104, 106, 108, 110, 112, 114, 116, 118]) \n >>> z = f.encode(y) \n >>> z \n array([100, 102, 104, 106, 108, 110, 112, 114, 116, 118], dtype=int8)"
     },
     {
       "CodecID": "bitround",
       "CodecName": "Bitround",
-      "UseCase": ""
+      "UseCase": "Drops a specified number of bits from the floating point mantissa, \n leaving an array more amenable to compression. The number of bits to keep should \n be determined by an information analysis of the data to be compressed."
     },
     {
       "CodecID": "json2",
       "CodecName": "JSON",
-      "UseCase": ""
+      "UseCase": ">>> import numcodecs \n >>> import numpy as np \n >>> x = np.array(['foo', 'bar', 'baz'], dtype='object') \n >>> codec = numcodecs.JSON() \n >>> codec.decode(codec.encode(x)) \n array(['foo', 'bar', 'baz'], dtype=object)"
     },
     {
       "CodecID": "imagecodecs_aec",
