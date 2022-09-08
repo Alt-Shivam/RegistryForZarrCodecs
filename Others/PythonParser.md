@@ -3,7 +3,7 @@
 
 * Download this script locally.
 ```
-wget https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/main.py
+wget https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/Script/main.py
 ```
 
 * Run
