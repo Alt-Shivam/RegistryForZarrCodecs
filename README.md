@@ -4,8 +4,8 @@
 Zarr is a chunked compressed format for the storage of N-dimensional arrays like those created by NumPy. Each compression algorithm used by Zarr is assigned an identifier by the numcodecs library. This registry makes these identifiers useful in other programming languages.  
 
 ## Download this Registry  
-* [CSV](https://github.com/Alt-Shivam/Codecs-Registry/blob/main/Registry.csv)
-* [Json](https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/codec.json)
+* [CSV](https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/Registry/Registry.csv)
+* [Json](https://raw.githubusercontent.com/Alt-Shivam/Codecs-Registry/main/Registry/Codec.json)
 
 ## Registry
 
@@ -63,10 +63,6 @@ Zarr is a chunked compressed format for the storage of N-dimensional arrays like
 | imagecodecs_jpegxl | Jpegxl | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpegxl.pyx) | ImageCodecs |  | 04/08/22 |
 | imagecodecs_jpegxr | Jpegxr | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_jpegxr.pyx) | ImageCodecs |  | 04/08/22 |
 | imagecodecs_lerc | Lerc | [Link](https://github.com/cgohlke/imagecodecs/blob/master/imagecodecs/_lerc.pyx) | ImageCodecs |  | 04/08/22 |
-
-## To know more about codecs, refer to this Research File: [Link](https://alt-shivam.github.io/Codecs-Registry/Others/Research)
-
-## CodecID Naming Convention: [Link](https://alt-shivam.github.io/Codecs-Registry/Others/CodecID_Naming_Convention.html)
 
 ## Created  
 2022-07-01
