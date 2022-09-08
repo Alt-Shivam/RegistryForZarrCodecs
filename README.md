@@ -442,7 +442,6 @@ Related Links:
 Brunsli results in 22% decrease in file size while allowing the original JPEG to be recovered byte-by-byte.
 
 
-
 Related Links:
 [Source Code](https://github.com/google/brunsli)
 
