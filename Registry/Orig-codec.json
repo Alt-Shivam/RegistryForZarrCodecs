@@ -1,0 +1,366 @@
+[
+  {
+    "CodecID": "None",
+    "CodecName": "Checksum 32",
+    "Type": "Numcodecs",
+    "Description": "Checksum Algorithm",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "msgpack2",
+    "CodecName": "MsgPack",
+    "Type": "Numcodecs",
+    "Description": "Codec to encode data as msgpacked bytes. Useful for encoding an array of Python",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "base64",
+    "CodecName": "Base64",
+    "Type": "Numcodecs",
+    "Description": "Codec providing base64 compression via the Python standard library.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "categorize",
+    "CodecName": "Categorize",
+    "Type": "Numcodecs",
+    "Description": "Filter encoding categorical string data as integers.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "delta",
+    "CodecName": "Delta",
+    "Type": "Numcodecs",
+    "Description": "Codec to encode data as the difference between adjacent values.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "fixedscaleoffset",
+    "CodecName": "FixedScaleOffset",
+    "Type": "Numcodecs",
+    "Description": "Applies the transformation `(x - offset) * scale` to all chunks.  Results\n    are rounded to the nearest integer",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "blosc",
+    "CodecName": "Blosc",
+    "Type": "Numcodecs",
+    "Description": "Codec providing compression using the Blosc meta-compressor.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "gzip",
+    "CodecName": "GZIP",
+    "Type": "Numcodecs",
+    "Description": "Codec providing gzip compression using zlib via the Python standard library.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "bz2",
+    "CodecName": "BZ2",
+    "Type": "Numcodecs",
+    "Description": "Codec providing compression using bzip2 via the Python standard library.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "lzma",
+    "CodecName": "LZMA",
+    "Type": "Numcodecs",
+    "Description": "Codec providing compression using lzma via the Python standard library.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "lz4",
+    "CodecName": "LZ4",
+    "Type": "Numcodecs",
+    "Description": "Codec providing compression using LZ4.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "zlib",
+    "CodecName": "Zlib (DEFLATE)",
+    "Type": "Numcodecs",
+    "Description": "Codec providing compression using zlib via the Python standard library.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "zstd",
+    "CodecName": "ZStandard (ZSTD)",
+    "Type": "Numcodecs",
+    "Description": "Codec providing compression using Zstandard.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "packbits",
+    "CodecName": "PackBits",
+    "Type": "Numcodecs",
+    "Description": "Codec to pack elements of a boolean array into bits in a uint8 array.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "pickle",
+    "CodecName": "Pickle",
+    "Type": "Numcodecs",
+    "Description": "Codec to encode data as as pickled bytes. Useful for encoding an array of Python string objects.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "quantize",
+    "CodecName": "Quantize",
+    "Type": "Numcodecs",
+    "Description": "Lossy filter to reduce the precision of floating point data.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "shuffle",
+    "CodecName": "Shuffle",
+    "Type": "Numcodecs",
+    "Description": "Codec providing shuffle",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "zfpy",
+    "CodecName": "ZFPY",
+    "Type": "Numcodecs",
+    "Description": "Codec providing compression using zfpy via the Python standard library.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "astype",
+    "CodecName": "Astype",
+    "Type": "Numcodecs",
+    "Description": "Filter to convert data between different types.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "bitround",
+    "CodecName": "Bitround",
+    "Type": "Numcodecs",
+    "Description": "Floating-point bit rounding codec",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "json2",
+    "CodecName": "JSON",
+    "Type": "Numcodecs",
+    "Description": "Codec to encode data as JSON. Useful for encoding an array of Python objects.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_aec",
+    "CodecName": "AEC",
+    "Type": "ImageCodecs",
+    "Description": "Codec to implement the acoustic echo cancellation (AEC) and noise suppression (NS) algorithms.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_apng",
+    "CodecName": "APNG",
+    "Type": "ImageCodecs",
+    "Description": "APNG is a file format which extends the PNG specs to permit animated images that work similar to animated GIF files, while supporting 24-bit images and 8-bit transparency not available for GIFs.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_avif",
+    "CodecName": "AVIF",
+    "Type": "ImageCodecs",
+    "Description": "AVIF is an image file format spec for storing images or image sequences compressed with AV1 in the HEIF container format.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_brotli",
+    "CodecName": "Brotli",
+    "Type": "ImageCodecs",
+    "Description": "lossless data compression algorithm which uses a combination of LZ77 lossless compression algorithm, Huffman coding and 2nd order context modelling.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_brunsli",
+    "CodecName": "Brunsli",
+    "Type": "ImageCodecs",
+    "Description": "Brunsli works as a transcoder converting between JPEG and JPEG XL.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_ljpeg",
+    "CodecName": "LJpeg",
+    "Type": "ImageCodecs",
+    "Description": "LJPEG is a mode of operation of JPEG. This mode exists because the discrete cosine transform (DCT) based form cannot guarantee that encoder input would exactly match decoder output.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_mozjpeg",
+    "CodecName": "MozJpeg",
+    "Type": "ImageCodecs",
+    "Description": "MozJPEG improves JPEG compression efficiency achieving higher visual quality and smaller file sizes at the same time and compatible with the JPEG standard",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_pglz",
+    "CodecName": "Pglz",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_png",
+    "CodecName": "Png",
+    "Type": "ImageCodecs",
+    "Description": "PNG is a raster-graphics file format that supports lossless data compression and supports palette-based images, grayscale images, and full-color non-palette-based RGB or RGBA images.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_qoi",
+    "CodecName": "Qoi",
+    "Type": "ImageCodecs",
+    "Description": "QOI is a specification for lossless image compression of 24-bit or 32-bit color raster (bitmapped) images.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_rcomp",
+    "CodecName": "Rcomp",
+    "Type": "ImageCodecs",
+    "Description": "Rcomp codec is an implementation of the Rice algorithm",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_spng",
+    "CodecName": "SPng",
+    "Type": "ImageCodecs",
+    "Description": "Codec to convert numpy array to PNG image and vice versa.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_szip",
+    "CodecName": "Szip",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_tiff",
+    "CodecName": "Tiff",
+    "Type": "ImageCodecs",
+    "Description": "Codec to convert numpy array to TIFF image and vice versa.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_webp",
+    "CodecName": "Webp",
+    "Type": "ImageCodecs",
+    "Description": "Codec to convert numpy array to WebP image.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_zlibng",
+    "CodecName": "ZLibng",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_zopfli",
+    "CodecName": "Zopfli",
+    "Type": "ImageCodecs",
+    "Description": "Codec to Compress Zlib format using Zopfli.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_avif",
+    "CodecName": "Avif",
+    "Type": "ImageCodecs",
+    "Description": "Codec to convert numpy array to AVIF image.",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_cms",
+    "CodecName": "Cms",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_deflate",
+    "CodecName": "Deflate",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_gif",
+    "CodecName": "Gif",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_heif",
+    "CodecName": "Heif",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jetraw",
+    "CodecName": "Jetraw",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jpeg12",
+    "CodecName": "Jpeg12",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jpeg2k",
+    "CodecName": "Jpeg2k",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jpeg8",
+    "CodecName": "Jpeg8",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jpegls",
+    "CodecName": "Jpegls",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jpegsof3",
+    "CodecName": "Jpegsof3",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jpegxl",
+    "CodecName": "Jpegxl",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_jpegxr",
+    "CodecName": "Jpegxr",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  },
+  {
+    "CodecID": "imagecodecs_lerc",
+    "CodecName": "Lerc",
+    "Type": "ImageCodecs",
+    "Description": "",
+    "LastUpdate": "08/07/22"
+  }
+]

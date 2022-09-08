@@ -1,0 +1,15 @@
+CodecID,CodecName,CodecType,Description,LastUpdated
+None,Deflate64 / Enhanced Deflate,Others,,08/07/22
+None,Snappy,Others,,08/07/22
+None,LZS,Others,,08/07/22
+None,LZSS,Others,,08/07/22
+None,LZO,Others,,08/07/22
+None,LZFSE,Others,,08/07/22
+None,ZFP,Others,,08/07/22
+None,LZRW,Others,,08/07/22
+None,LZX,Others,,08/07/22
+None,LZWL,Others,,08/07/22
+None,LZ4HC,Others,,08/07/22
+None,LZW,Others,,08/07/22
+None,LZF,Others,,08/07/22
+None,GZIP,Others,,08/07/22
