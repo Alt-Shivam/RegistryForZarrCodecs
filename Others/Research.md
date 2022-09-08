@@ -1,5 +1,7 @@
 # Registry: Zarr Codecs
 
+### Download this research:
+[PDF](https://github.com/Alt-Shivam/Codecs-Registry/raw/main/Research/Research.pdf)
 
 
 ## CheckList
